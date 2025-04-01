@@ -6,9 +6,20 @@ Install the required dependencies using `pnpm`:
 ```
 pnpm install
 ```
+Install the custom plugin as a package:
 
+```
 pnpm install /custom-capacitor-plugin/crepe-plugin
+```
 
-npx cap open android
+Sync the plugin with android:
 
+```
 npx cap sync android
+```
+
+Open in android studio:
+
+```
+npx cap open android
+```
